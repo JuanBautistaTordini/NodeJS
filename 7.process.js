@@ -19,3 +19,8 @@ process.on('exit', () => {
 
 process.cwd(); // current working directory
 
+
+
+//platform
+
+console.log(process.platform); // dará win32 en windows
