@@ -1,4 +1,4 @@
-const fs = require('node:fs')
+const fs = require('node:fs/promises')
 
 const folder = process.argv[2] ?? '.'
 
