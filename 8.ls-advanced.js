@@ -14,3 +14,7 @@ fs.readdir(folder)
             return;
         }
     })
+
+// node 8.ls-advanced.js
+// node 8.ls-advanced.js content   
+// node 8.ls-advanced.js content/subfolder
