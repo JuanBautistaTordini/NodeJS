@@ -4,7 +4,7 @@ const folder = process.argv[2] ?? '.'
 
 fs.readdir(folder)
     .then(files => {
-        filer.forEach(file => {
+        files.forEach(file => {
             console.log(file);
         });
     })
